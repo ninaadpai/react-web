@@ -1,0 +1,95 @@
+.input-box {
+    border: 0px solid #ccc;
+    border-bottom-width: 1px;
+    display: flex;
+    font-family: 'Lato', serif;
+    margin: 0 auto;
+    margin-top: 16px;
+    height: 32px;
+    width: 300px;
+    outline: none;
+}
+
+.input-box-empty {
+    border: 0px solid #c9302c;
+    color: #c9302c;
+    border-bottom-width: 1px;
+    display: flex;
+    font-family: 'Lato', serif;
+    margin: 0 auto;
+    margin-top: 16px;
+    height: 32px;
+    width: 300px;
+    outline: none;
+}
+
+.form-button {
+    margin-top: 16px;
+    border: 1px solid #c9ac3b;
+    cursor: pointer;
+    color: #c9ac3b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    outline: none;
+    -webkit-transition-property: color background; /* Safari */
+    -webkit-transition-duration: .1s; /* Safari */
+    -webkit-transition-delay: .1s; /* Safari */
+    transition-property: color background;
+    transition-duration: .1s;
+    transition-delay: .1s;
+}
+
+.form-button:hover {
+    color: #fff;
+    background: #c9ac3b;
+}
+
+.facebook-sign-in {
+    background: #3b5998;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    width: 300px;
+    outline: none;
+}
+
+.google-sign-in {
+    cursor: pointer;
+    background:#c9302c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    width: 300px;
+    outline: none;
+    -webkit-transition-property: color background; /* Safari */
+    -webkit-transition-duration: .1s; /* Safari */
+    -webkit-transition-delay: .1s; /* Safari */
+    transition-property: color background;
+    transition-duration: .1s;
+    transition-delay: .1s;
+}
+
+.sign-up-link {
+    padding-bottom: 16px;
+}
+
+.input-box-alert {
+    font-size: 10px;
+    color: #c9302c;
+    text-align: left;
+}
+
+.toast {
+    margin-top: 12px;
+    background: #c96555;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    height: 28px;
+}

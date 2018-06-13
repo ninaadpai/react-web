@@ -1,0 +1,22 @@
+.landing-routes-container {
+    display: flex;
+    width: auto;
+}
+
+.routes {
+    color: #000;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+    margin: 0 16px 0 0;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: .2s; /* Safari */
+    -webkit-transition-delay: .2s; /* Safari */
+    transition-property: color;
+    transition-duration: .2s;
+    transition-delay: .2s;
+}
+
+.routes:hover {
+    cursor: pointer;
+    color: #c9ac3b;
+}

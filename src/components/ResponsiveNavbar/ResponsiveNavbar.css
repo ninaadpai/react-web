@@ -1,0 +1,19 @@
+.navbar-container {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo {
+    font-size: 32px;
+    margin: 16px 0 0 16px;
+}
+
+.routes-container {
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.sign-in-and-cart {
+    margin: 24px 16px 0 16px;
+}

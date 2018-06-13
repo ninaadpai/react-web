@@ -1,0 +1,47 @@
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.modal-main {
+    font-family: 'Lato', serif;
+    position: fixed;
+    background: #fff;
+    width: auto;
+    height: auto;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 16px 20px 16px 20px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.modal-title {
+    font-size: 20px;
+    margin: 16px 0 0 16px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide-sign-in {
+    cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 8px;
+    height: 16px;
+    width: 16px;
+}
